@@ -2,7 +2,7 @@
 
 SynerGPT is an innovative project that enables collaboration between two Large Language Models (LLMs) to efficiently solve complex problems and tackle extensive tasks. By harnessing the power of Anthropic's and OpenAI's LLMs, SynerGPT creates a synergistic environment where a Manager LLM assigns tasks to a Worker LLM, fostering seamless communication and cooperation.
 
-![SynerGPT](https://github.com/KyleBenzle/SynerGPT/assets/48848725/0d3ae724-addf-4067-86af-58f6eb47365f)
+![SynerGPT](https://github.com/KyleBenzle/SynerGPT/assets/48848725/0d3ae724-addf-4067-86af-58f6eb47365f | width=300)
 
 
 
