@@ -6,6 +6,8 @@ SynerGPT is an innovative project that enables collaboration between two Large L
 ![SynerGPT](https://github.com/KyleBenzle/SynerGPT/assets/48848725/cef04e52-c633-4ee6-bfd6-521fc0452342)
 </center>
 </p>
+
+
 ## Overview
 
 In SynerGPT, the Anthropic LLM assumes the role of the Manager, overseeing the project and delegating tasks to the Worker LLM, which is powered by OpenAI. The Manager LLM breaks down large jobs into smaller, manageable tasks and assigns them to the Worker LLM. This collaborative approach allows for efficient problem-solving and task completion.
