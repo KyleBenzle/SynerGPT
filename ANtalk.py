@@ -4,7 +4,7 @@ import sys
 from anthropic import Client, HUMAN_PROMPT, AI_PROMPT
 
 # Replace 'your_anthropic_api_key' with your actual API key
-anthropic_api_key = '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'
+anthropic_api_key = 'sk-ant-api03-uzY5JDnc9DHE0qxrJ****acOH58e8wrQ-yfHs8wAA'
 
 # Initialize the Anthropic API client
 client = Client(api_key=anthropic_api_key)
