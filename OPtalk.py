@@ -6,7 +6,7 @@ import hashlib
 import sys  # Import sys to access command line arguments
 
 # Set your OpenAI API key here
-openai.api_key = 'sk-GQFRtqXwj8mDx5o***HhXsT0SaNUyNcdbFOzL4'
+openai.api_key = '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'
 
 def guess_language(code_snippet):
     """
@@ -61,9 +61,9 @@ def main():
     
     print(response_text)  # Print the response to standard output
     
-    with open("ChatLog.txt", "a") as file:
-        file.write(f"Question: {user_prompt}\n")
-        file.write(f"Response: {response_text}\n\n")
+#    with open("ChatLog.txt", "a") as file:
+#        # file.write(f"\n\nWorker Prompt: {user_prompt}\n")
+#        file.write(f"\n\nWorker Response: {response_text}\n")
     
     # Extract code snippets from the response
     code_snippets = extract_code(response_text)

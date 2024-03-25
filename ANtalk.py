@@ -4,7 +4,7 @@ import sys
 from anthropic import Client, HUMAN_PROMPT, AI_PROMPT
 
 # Replace 'your_anthropic_api_key' with your actual API key
-anthropic_api_key = 'sk-ant-api03-uzY5JDn*LQKacOH58e8wrQ-yfHs8wAA'
+anthropic_api_key = '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'
 
 # Initialize the Anthropic API client
 client = Client(api_key=anthropic_api_key)
@@ -38,8 +38,8 @@ def main():
         generated_response = response.completion.strip()
 
         # Append the prompt and response to the chat log
-        append_to_chat_log(f"Prompt: {prompt}")
-        append_to_chat_log(f"Response: {generated_response}")
+#        append_to_chat_log(f"\n\nManager Prompt: {prompt}\n")
+#        append_to_chat_log(f"\n\nManager Response: {generated_response}\n")
 
         # Check if the response contains code
         code_blocks = re.findall(r'```(.+?)\n(.+?)```', generated_response, re.DOTALL)
