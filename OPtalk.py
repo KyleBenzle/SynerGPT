@@ -6,7 +6,7 @@ import hashlib
 import sys  # Import sys to access command line arguments
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = ''
 
 def guess_language(code_snippet):
     """
